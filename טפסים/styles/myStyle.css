@@ -1,0 +1,124 @@
+body 
+{
+    direction:rtl;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+    font-family:Calibri; 
+}
+/*החלק הראשון של הHEADER */
+#introduction {
+    background-image: url(../images/hand-3190204_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px;
+    width: 960px;
+    height: 400px;
+   
+}
+
+
+    #introduction h1 {
+        font-size: 50px;
+        padding-top: 20px;
+        font-family:Calibri;
+    }
+
+/*עיצוב של כל הH2 */
+.myWork {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30PX;
+    font-family: Calibri;
+}
+/*אייקונים של עיצוב הדרכה ותכנות */
+.highIcon {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+}
+
+.icon {
+    margin-top: 20px;
+    background-image: url(../images/paint-palette-and-brush.png);
+    margin-right: 170px;
+}
+
+.icon1 {
+    background-image: url(../images/head.png);
+    margin-right: 280px;
+}
+
+.icon2 {
+    background-image: url(../images/code.png);
+    margin-right: 270px;
+}
+
+
+
+.category {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 20PX;
+    margin-right: 190px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+/*למה כדאי לי ?  */
+.profit {
+    font-size: 20px;
+    margin-right: 410px;
+    margin-top: 20px;
+}
+/*רקע ירוק  */
+.box {
+    margin-top:20px;
+    width: 960px;
+    height: 370px;
+    background-color: #cfef99;
+   
+}
+
+/*החלק האחרון של יצירת טופס */
+form {
+    text-align: center;
+    
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: Calibri;
+    font-size:20px;
+}
+
+input[type ='text'], input[type ='password'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 400px;
+     
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+   width:200px;
+   background-color: palegreen;
+  
+
+}
+
+h3 {
+
+   padding-top:20px;
+   padding-bottom:20px;
+    text-align:center;
+    font-size:20px;
+}
+
+a {
+    padding-right:380px;
+
+
+}
